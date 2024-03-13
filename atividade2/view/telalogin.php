@@ -13,7 +13,7 @@
     <fieldset id="cxlogin">
         <legend>Sistema de Cadastro</legend>
         Login:
-        <input type="email" name="cxemail"> <br>
+        <input type="email" name="cxemail"> <br><br>
         Senha:
         <input type="password" name="cxsenha"> <br><br>
         <input type="submit" name="Acessar"> <br>
