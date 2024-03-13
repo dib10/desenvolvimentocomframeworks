@@ -16,7 +16,7 @@
         <input type="email" name="cxemail"> <br><br>
         Senha:
         <input type="password" name="cxsenha"> <br><br>
-        <input type="submit" name="Acessar"> <br>
+        <input type="submit" value="Acessar"> <br>
         <figure id="cadeado">
             <img src="../img/cadeado.png" alt="cadeado" class="figura1">
 
