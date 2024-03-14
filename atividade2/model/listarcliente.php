@@ -26,6 +26,8 @@
         Email:
         <input type="text" name="cxemail" disabled value ="<?php echo $linha['email']?>" required> <br>
 
+        <a href="excluircliente.php?id=<?php echo $linha['cod']; ?>" >x</a>
+
     </form>
     <?php
 }

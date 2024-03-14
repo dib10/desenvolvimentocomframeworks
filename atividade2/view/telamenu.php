@@ -15,7 +15,7 @@
     <a href="cadastroproduto.php">Cadastrar Produto</a><br><br>
     <a href="../view/listarproduto.php">Listar Produto</a><br><br>
     
-    <a href="../view/listarcliente.php">Listar Cliente</a><br><br>
+    <a href="listarcliente.php">Listar Cliente</a><br><br>
 
     <a href="../model/pesquisanomeproduto.php">Pesquisa Produto</a><br><br>
 

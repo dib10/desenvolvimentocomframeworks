@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exibir cliente</title>
+    <title>Exibir Produto</title>
 </head>
 <body>
     <?php
-        include_once '../factory/conexao.php';
-        $consultar = "SELECT * FROM tbproduto";
-        $executar = mysqli_query($conn, $consultar);
-        while($linha = mysqli_fetch_array($executar))
-        {
+    include_once '../factory/conexao.php';
+    $consultar = "select *from tbproduto";
+    $executar = mysqli_query($conn, $consultar);
+    while($linha = mysqli_fetch_array($executar))
+    {
+
+    
     ?>
-    <form action="">
-        <br>
+    <form>
         Produto:
-        <input type="text" name="cxproduto" value="<?php echo $linha['produto'] ?>" disabled><br>
+        <input type= "text" name="cxproduto"value="<?php echo $linha["produto"]?>"/><br/>
         Data de validade:
-        <input type="date" name="cxdatadevalidade" value="<?php echo $linha['datavalidade'] ?>" disabled><br>
+        <input type= "date" name="cxdata"value="<?php echo $linha["datavalidade"]?>"/><br/>
         Quantidade:
-        <input type="number" name="cxquantidade" value="<?php echo $linha['quantidade'] ?>" disabled><br>
+        <input type= "number" name="cxqtde"value="<?php echo $linha["qtde"]?>"/><br/>
         Valor:
-        <input type="number" name="cxevalor" value="<?php echo $linha['valor'] ?>" disabled><br><br>
+        <input type= "text" name="cxvalor"value="<?php echo $linha["valor"]?>"/><br/>
+
     </form>
-    <?php 
+    <?php
         }
     ?>
 </body>
