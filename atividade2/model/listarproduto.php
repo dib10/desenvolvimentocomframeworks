@@ -24,8 +24,8 @@
         Quantidade:
         <input type= "number" name="cxqtde"value="<?php echo $linha["qtde"]?>"/><br/>
         Valor:
-        <input type= "text" name="cxvalor"value="<?php echo $linha["valor"]?>"/><br/>
-
+        <input type= "text" name="cxvalor"value="<?php echo $linha["valor"]?>"/> <br>
+        <a href="excluirproduto.php?id=<?php echo $linha['codigo'];?>">X</a>
     </form>
     <?php
         }
