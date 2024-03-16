@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Cadastro de Cliente</title>
 </head>
-<body id="fundomenu">
+
+<body id="formulario">
+    <section>
     <form action="../model/inserircliente.php" method = "POST">
-        Nome:
-        <input type="text" name="cxnome" required> <br>
+<div class="input-group">
+<h1>Cadastro de Cliente</h1>
 
-        Email:
-        <input type="text" name="cxemail" required> <br>
+    <label id="nomeform">Nome:</label>
+    <input type="text" name="cxnome" required class="caixaformulario">
+</div>
+<br><br>
+<div class="input-group">
+    <label id="emailform">Email:</label>
+    <input type="text" name="cxemail" required class="caixaformulario">
+    <br>
+    <input type="submit" value="Cadastrar" id="botaogravar">
 
-        <input type="submit" value="Gravar"> <br>
-    </form>
-    <a href="../model/listarcliente.php">Listar Clientes</a> <br>
-
-    <a href="../index.php">Voltar</a> <br>
+</div>
 </body>
 </html>

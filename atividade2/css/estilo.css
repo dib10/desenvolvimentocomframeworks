@@ -33,7 +33,16 @@ font-family: Roboto,sans-serif;
 #menu a{
     color: brown;
     font-family: Roboto,sans-serif;
+    text-decoration: none;
+    background-color: #f2f2f2; /* Cor de fundo do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: 1px solid #ccc; /* Borda do botão */
+    border-radius: 5px; /* Arredondamento dos cantos do botão */
 
+
+    
+    
+    
 }
 .h1menu
 {
@@ -45,3 +54,49 @@ font-family: Roboto,sans-serif;
 {
     background-color: bisque;
 }
+
+#formulario {
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh; /* Altura total da viewport */
+}
+
+#botaogravar {
+    background-color: bisque;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.caixaformulario {
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    font-family: Roboto, sans-serif;
+    color: rgb(123, 110, 110);
+    font-size: 1.2em; /* Ajuste o tamanho da fonte conforme necessário */
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nomeform {
+    color: rgb(71, 62, 50);
+    font-family: Roboto, sans-serif;
+}
+
+#emailform {
+    color: rgb(71, 62, 50);
+    font-family: Roboto, sans-serif;
+}
+
