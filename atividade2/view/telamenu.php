@@ -11,15 +11,16 @@
 <body id="fundomenu">
     <h1 class="h1menu">Menu Inicial </h1>
     <section id="menu">
+        <h2>Cliente</h2>
     <a href="cadastrocliente.php">Cadastrar Cliente </a><br><br><br>
+    <a href="../model/listarcliente.php">Listar Cliente</a><br><br><br>
+    <a href="../model/pesquisanomecliente.php">Pesquisa Cliente</a><br><br><br>
+<hr>
+<h2>Produto</h2>
     <a href="cadastroproduto.php">Cadastrar Produto</a><br><br><br>
     <a href="../view/listarproduto.php">Listar Produto</a><br><br><br>
-    
-    <a href="../model/listarcliente.php">Listar Cliente</a><br><br><br>
-
     <a href="../model/pesquisanomeproduto.php">Pesquisa Produto</a><br><br><br>
 
-    <a href="../model/pesquisanomecliente.php">Pesquisa Cliente</a><br><br><br>
 
 
 
