@@ -4,26 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Cadastro de Produto</title>
 </head>
-<body>
-    <h1>Produtos</h1>
+
+<body id="formulario">
+    <section>
     <form action="../model/inserirproduto.php" method = "POST">
-        Produto:
-        <input type="text" name="cxproduto" required> <br>
+        <div class="input-group">
+            <h1>Cadastro de Produto</h1>
 
-        Data de validade:
-        <input type="date" name="cxdata" required> <br>
-
-        Quantidade:
-        <input type="number" name="cxqtd" required> <br>
-
-        Valor:
-        <input type="decimal" name="cxvalor" required> <br>
-
-        <input type="submit" value="Gravar"> <br>
+            <label id="produtoform">Produto:</label>
+            <input type="text" name="cxproduto" required class="caixaformulario">
+        </div>
+        <br><br>
+        <div class="input-group">
+            <label id="dataform">Data de validade:</label>
+            <input type="date" name="cxdata" required class="caixaformulario">
+        </div>
+        <br><br>
+        <div class="input-group">
+            <label id="qtdform">Quantidade:</label>
+            <input type="number" name="cxqtd" required class="caixaformulario">
+        </div>
+        <br><br>
+        <div class="input-group">
+            <label id="valorform">Valor:</label>
+            <input type="decimal" name="cxvalor" required class="caixaformulario">
+            <input type="submit" value="Cadastrar" id="botaogravar">
+        </div>
+        <br>
     </form>
     <a href="../index.php">Voltar</a>
-    
 </body>
 </html>
