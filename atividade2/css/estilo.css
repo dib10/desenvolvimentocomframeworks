@@ -31,13 +31,13 @@ font-family: Roboto,sans-serif;
 
 }
 #menu a{
-    color: brown;
+    color: rgb(255, 255, 255);
     font-family: Roboto,sans-serif;
     text-decoration: none;
-    background-color: #f2f2f2; /* Cor de fundo do botão */
+    color: rgb(71, 62, 50);
     padding: 10px 20px; /* Espaçamento interno do botão */
     border: 1px solid #ccc; /* Borda do botão */
-    border-radius: 5px; /* Arredondamento dos cantos do botão */
+    border-radius: 12px; /* Arredondamento dos cantos do botão */
 
 
     
@@ -60,7 +60,8 @@ font-family: Roboto,sans-serif;
     justify-content: center;
     display: flex;
     align-items: center;
-    height: 100vh; /* Altura total da viewport */
+    min-height: 100vh; /* Altura mínima da viewport */
+    flex-wrap: wrap; /* Permite que os itens da flexbox sejam dispostos em várias linhas */
 }
 
 #botaogravar {
