@@ -38,8 +38,8 @@
         <label id="valorform">Valor:</label>
         <input type="text" name="cxvalor" disabled value="<?php echo $linha['valor']?>" required class="caixaformulario">
     </div>
-    <a href="excluirproduto.php?id=<?php echo $linha['codigo'];?>" style="margin-left: 10px;">Excluir</a>
-</div>
+    <br>
+    <a href="excluircliente.php?id=<?php echo $linha['codigo']; ?>" id="botaosubmit" style="margin-left: 10px;">Excluir</a></div>
         <br>
     </form>
     <?php

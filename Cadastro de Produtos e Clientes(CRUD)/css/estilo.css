@@ -79,6 +79,7 @@ font-family: Roboto,sans-serif;
 
 .caixaformulario {
     background-color: antiquewhite;
+    text-align: center;
     padding: 20px;
     display: flex;
     flex-direction: column;

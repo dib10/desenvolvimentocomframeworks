@@ -31,7 +31,8 @@
         <input type="text" name="cxemail" disabled value ="<?php echo $linha['email']?>" required class="caixaformulario">
     </div>
     <br>
-    <a href="excluircliente.php?id=<?php echo $linha['cod']; ?>" id="botaosubmit" style="margin-left: 10px;">Excluir</a></div>
+    <a href="excluircliente.php?id=<?php echo $linha['cod']; ?>" id="botaosubmit" style="margin-left: 10px;">Excluir</a>
+</div>
         <br>
     </form>
     <?php
