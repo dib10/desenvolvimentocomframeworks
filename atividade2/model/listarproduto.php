@@ -4,28 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Exibir Produto</title>
 </head>
-<body>
+<body id="formulario">
     <?php
     include_once '../factory/conexao.php';
     $consultar = "select *from tbproduto";
     $executar = mysqli_query($conn, $consultar);
     while($linha = mysqli_fetch_array($executar))
     {
-
-    
     ?>
+    <section>
     <form>
-        Produto:
-        <input type= "text" name="cxproduto"value="<?php echo $linha["produto"]?>"/><br/>
-        Data de validade:
-        <input type= "date" name="cxdata"value="<?php echo $linha["datavalidade"]?>"/><br/>
-        Quantidade:
-        <input type= "number" name="cxqtde"value="<?php echo $linha["qtde"]?>"/><br/>
-        Valor:
-        <input type= "text" name="cxvalor"value="<?php echo $linha["valor"]?>"/> <br>
-        <a href="excluirproduto.php?id=<?php echo $linha['codigo'];?>">X</a>
+        <hr>
+    <div class="client-group">
+    <div class="input-group">
+        <label id="produtoform">Produto:</label>
+        <input type="text" name="cxproduto" disabled value="<?php echo $linha['produto']?>" required class="caixaformulario">
+    </div>
+    <br>
+    <div class="input-group">
+        <label id="dataform">Data de validade:</label>
+        <input type="date" name="cxdata" disabled value="<?php echo $linha['datavalidade']?>" required class="caixaformulario">
+    </div>
+    <br>
+    <div class="input-group">
+        <label id="qtdeform">Quantidade:</label>
+        <input type="number" name="cxqtde" disabled value="<?php echo $linha['qtde']?>" required class="caixaformulario">
+    </div>
+    <br>
+    <div class="input-group">
+        <label id="valorform">Valor:</label>
+        <input type="text" name="cxvalor" disabled value="<?php echo $linha['valor']?>" required class="caixaformulario">
+    </div>
+    <a href="excluirproduto.php?id=<?php echo $linha['codigo'];?>" style="margin-left: 10px;">Excluir</a>
+</div>
+        <br>
     </form>
     <?php
         }

@@ -9,12 +9,12 @@
 <body>
     <?php
         include_once '../factory/conexao.php';
-        $pesquisanome = $_POST['cxpesquisacliente'];
+        $pesquisanome = $_POST['cxnome'];
         $consultar = "SELECT * FROM tbcliente WHERE nome='$pesquisanome'";
         $executar = mysqli_query($conn, $consultar);
         while($linha = mysqli_fetch_array($executar)){
     ?>
-    <form action="">
+    <form >
         <br>
         Nome:
         <input type="text" name="cxnome" value="<?php echo $linha['nome'] ?>" disabled><br>

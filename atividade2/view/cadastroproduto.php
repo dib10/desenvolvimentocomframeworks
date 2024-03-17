@@ -31,7 +31,7 @@
         <div class="input-group">
             <label id="valorform">Valor:</label>
             <input type="decimal" name="cxvalor" required class="caixaformulario">
-            <input type="submit" value="Cadastrar" id="botaogravar">
+            <input type="submit" value="Cadastrar" id="botaosubmit">
             <a href="../index.php" id="botaogravar">Voltar </a>
 
         </div>
