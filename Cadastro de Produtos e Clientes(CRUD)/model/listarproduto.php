@@ -32,6 +32,7 @@
     <div class="input-group">
         <label id="qtdeform">Quantidade:</label>
         <input type="number" name="cxqtde" disabled value="<?php echo $linha['qtde']?>" required class="caixaformulario">
+
     </div>
     <br>
     <div class="input-group">
@@ -42,8 +43,22 @@
     <a href="excluircliente.php?id=<?php echo $linha['codigo']; ?>" id="botaosubmit" style="margin-left: 10px;">Excluir</a></div>
         <br>
     </form>
+    
     <?php
         }
     ?>
+
 </body>
+<br>
+<div class="input-group">
+<a href="../view/telamenu.php" id="botaosubmit">Voltar </a>
+
+
+</div>
+
+
+
+
+
+
 </html>

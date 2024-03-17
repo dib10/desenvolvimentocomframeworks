@@ -23,6 +23,9 @@
     <input type="text" name="cxemail" required class="caixaformulario">
     <br>
     <input type="submit" value="Cadastrar" id="botaosubmit">
+    <a href="telamenu.php" id="botaosubmit">Voltar </a>
+    
+
 
 </div>
 </body>

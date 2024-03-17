@@ -39,4 +39,9 @@
     }
     ?>  
 </body>
+<div class="input-group">
+<a href="../view/telamenu.php" id="botaosubmit">Voltar </a>
+
+
+</div>
 </html>

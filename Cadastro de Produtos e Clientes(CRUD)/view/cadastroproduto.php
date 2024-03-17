@@ -32,7 +32,7 @@
             <label id="valorform">Valor:</label>
             <input type="decimal" name="cxvalor" required class="caixaformulario">
             <input type="submit" value="Cadastrar" id="botaosubmit">
-            <a href="../index.php" id="botaosubmit">Voltar </a>
+            <a href="telamenu.php" id="botaosubmit">Voltar </a>
 
         </div>
         <br>
