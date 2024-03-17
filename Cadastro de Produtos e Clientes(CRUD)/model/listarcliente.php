@@ -17,6 +17,7 @@
     ?>  
     <section>
     <form  >
+        <hr>
     <div class="client-group">
     <div class="input-group">
         <label id="nomeform">Nome:</label>

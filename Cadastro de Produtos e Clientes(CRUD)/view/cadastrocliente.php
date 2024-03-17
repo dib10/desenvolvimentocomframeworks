@@ -22,7 +22,7 @@
     <label id="emailform">Email:</label>
     <input type="text" name="cxemail" required class="caixaformulario">
     <br>
-    <input type="submit" value="Cadastrar" id="botaogravar">
+    <input type="submit" value="Cadastrar" id="botaosubmit">
 
 </div>
 </body>
