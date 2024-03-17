@@ -18,7 +18,7 @@
 <hr>
 <h2>Produto</h2>
     <a href="cadastroproduto.php">Cadastrar Produto</a><br><br><br>
-    <a href="../view/listarproduto.php">Listar Produto</a><br><br><br>
+    <a href="../model/listarproduto.php">Listar Produto</a><br><br><br>
     <a href="../model/pesquisanomeproduto.php">Pesquisa Produto</a><br><br><br>
 
 
