@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Exibir Cliente</title>
 </head>
+
 <body id="formulario">
     <?php
     include_once '../factory/conexao.php';
@@ -15,8 +16,10 @@
     while($linha = mysqli_fetch_array($executar))
     {
     ?>  
+    
     <section>
-    <form  >
+
+    <form>
         <hr>
     <div class="client-group">
     <div class="input-group">
@@ -27,8 +30,8 @@
         <label id="emailform">Email:</label>
         <input type="text" name="cxemail" disabled value ="<?php echo $linha['email']?>" required class="caixaformulario">
     </div>
-    <a href="excluircliente.php ?id=<?php echo $linha['cod']; ?>" style="margin-left: 10px;">Excluir</a>
-</div>
+    <br>
+    <a href="excluircliente.php?id=<?php echo $linha['cod']; ?>" id="botaosubmit" style="margin-left: 10px;">Excluir</a></div>
         <br>
     </form>
     <?php

@@ -73,6 +73,8 @@ font-family: Roboto,sans-serif;
     border-radius: 10px;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    color: inherit ;
+    text-decoration: none;
 }
 
 .caixaformulario {
@@ -99,5 +101,18 @@ font-family: Roboto,sans-serif;
 #emailform {
     color: rgb(71, 62, 50);
     font-family: Roboto, sans-serif;
+}
+#excluirclientefundo
+{
+    background-color: antiquewhite;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima da viewport */
+    flex-wrap: wrap; /* Permite que os itens da flexbox sejam dispostos em várias linhas */
+}
+#exclusaoconcluida
+{
+    text-align: center;
 }
 
