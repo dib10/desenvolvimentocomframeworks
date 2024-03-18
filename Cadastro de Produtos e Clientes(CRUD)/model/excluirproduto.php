@@ -30,7 +30,7 @@ else
     <link rel="icon" type="image/png" href="../img/excluir.png">
 
 </head>
-<body id="excluirclientefundo">
+<body id="telaexclusao">
 <div id="exclusaoconcluida">
     <h1>Exclusão concluída!</h1>
     <a href="listarproduto.php" id="botaosubmit">Voltar</a>
