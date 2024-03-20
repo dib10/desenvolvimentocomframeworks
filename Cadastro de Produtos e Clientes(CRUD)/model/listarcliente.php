@@ -21,7 +21,7 @@
     
     <section>
 
-    <form>
+    <form action="" method="post">
         <hr>
     <div class="client-group">
     <div class="input-group">
