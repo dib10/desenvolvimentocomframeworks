@@ -1,0 +1,39 @@
+Comandos git:
+
+`git status` - Serve para verificar o estado atual do seu repositório Git, incluindo informações sobre arquivos modificados, adicionados, removidos e outras mudanças pendentes.
+
+`git add` - Serve para adicionar arquivos modificados ao stage, preparando-os para serem commitados.
+
+`git clone` - Serve para clonar um repositório Git existente para o seu ambiente local, permitindo que você trabalhe com uma cópia do repositório remoto em sua máquina.
+
+Exemplo:
+git clone https://exemplo.com/meu-repositorio
+
+
+
+`git commit` - Serve para confirmar as mudanças feitas nos arquivos adicionados ao stage, criando uma nova revisão no histórico do repositório.
+
+Exemplo: git commit -m "Sua mensagem de commit aqui"
+
+`git rm --cached <arquivo>` - Serve para remover arquivos do stage (área de preparação para commit) do repositório Git, enquanto mantém as alterações no arquivo no diretório de trabalho.
+
+`git pull` - Serve para atualizar seu repositório local com as alterações do repositório remoto. Ele combina os commits do repositório remoto para o branch atual em que você está trabalhando e atualiza seu repositório local com as alterações mais recentes.
+
+
+Atribuição do commit
+git config --global user.name "Seu Nome"
+
+git config --global user.email "seu_email@exemplo.com"
+
+
+Para fazer login no GitHub pelo Visual Studio Code (VSCode), siga estas etapas:
+
+1. Abra o VSCode e navegue até a barra de menus superior.
+2. Clique em "View" (Visualizar) e selecione "Command Palette" (Paleta de Comandos), ou simplesmente pressione `Ctrl+Shift+P` (Windows/Linux) ou `Cmd+Shift+P` (Mac).
+3. Na barra de pesquisa da paleta de comandos, digite "Sign in" (Entrar) e selecione "GitHub: Sign in" (GitHub: Entrar).
+4. O VSCode abrirá uma janela de login do GitHub no seu navegador padrão.
+5. Faça login na sua conta do GitHub inserindo seu nome de usuário e senha.
+6. Depois de fazer login com sucesso, você verá uma mensagem indicando que o login foi bem-sucedido.
+7. Volte para o VSCode e você estará conectado à sua conta do GitHub.
+
+Agora você pode acessar e interagir com seus repositórios do GitHub diretamente do VSCode.
