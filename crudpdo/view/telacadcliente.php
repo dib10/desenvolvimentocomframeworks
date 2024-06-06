@@ -7,18 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="../model/gravarcliente.php" method="POO">
+    <form action="../model/gravarcliente.php" method="POST">
         Nome: <br>
         <input type="text" name = "cxnome"><br>
 
         Idade: <br>
-        <input type="text" name = "cxidade"><br>
+        <input type="text" name = "cxtelefone"><br>
 
         Email:<br>
         <input type="text" name = "cxemail"><br><br>
 
         <button>Gravar</button>
     </form>
+    <br>
+
+    <!-- <form action="../model/gravarcliente.php" method="POST">
+        Nome: <br>
+        <input type="text" name = "cxnome"><br>
+
+        <button>Buscar</button>
+    </form> -->
 
     
 </body>
