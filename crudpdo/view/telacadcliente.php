@@ -15,7 +15,7 @@
         <input type="text" name = "cxidade"><br>
 
         Email:<br>
-        <input type="text" name = "cxemail"><br>
+        <input type="text" name = "cxemail"><br><br>
 
         <button>Gravar</button>
     </form>
